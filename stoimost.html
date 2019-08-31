@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PS&D</title>
+	<link rel="stylesheet" href="css/stoimost.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/media_stoim.css">
+      <link rel="stylesheet" href="css/media_stoim.css" media="all and (max-width: 1240px)">
+      <link rel="stylesheet" href="css/media_stoim.css" media="all and (max-width: 1024px)">
+      <link rel="stylesheet" href="css/media_stoim.css" media="all and (max-width: 768px)">
+      <link rel="stylesheet" href="css/media_stoim.css" media="all and (max-width: 480px)">
+      <link rel="stylesheet" href="css/media_stoim.css" media="all and (max-width: 380px)">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>	
+	<section id="second">
+		<div class="header">
+			<div class="logotip">
+				<div class="logo">
+					<a href="index.html">PS<span>&</span>D</a>
+				</div>
+			</div>	
+			<div class="menu">
+				<a href="comanda.html" class="a">.Команда</a>	
+				<a href="stoimost.html" class="s">.Стоимость</a>
+				<a href="shema.html" class="d">.Схема работы</a>
+				<div class="f">
+				и 
+				</div>
+				<a href="design.html" class="g">.Дизайн</a>
+			</div>
+			<a href="#openModal1" class="shape"></a>
+		</div>	
+		<div class="content">
+					<h2>
+					Стоимость
+					</h2>
+					<hr class="hr">
+			<div class="one">	
+				<div class="stoim1">
+					<p class="l" >Лэндинги</p>
+					<div class="linel" >
+						<img src="img/linel.png" >
+					</div>
+					<p class="pos" >Посадочная страница с высокой конверсией от <span>19900 руб.</span></p>
+					<a href="#openModal" class="button">Заказать</a>
+				</div>
+				<div class="stoim2">
+					<p class="sa" >Сайты</p>
+					<div class="lines" >
+						<img src="img/lines.png" >
+					</div>
+					<p class="mno" >Многостраничный сайт с индивидуальным дизайном от <span>59000 руб.</span></p>
+					<a href="#openModal" class="buttons">Заказать</a>
+				</div>	
+				<div class="stoim3">
+					<p class="i" >Магазины</p>
+					<div class="line" >
+						<img src="img/line.png" >
+					</div>
+					<p class="tor" >Торговая площадка с онлайн оплатой
+					от <span>119000 руб.</span></p>
+					<a href="#openModal" class="buttonss">Заказать</a>
+				</div>
+			</div>
+			<p class="tex">
+			* Адаптация под мобильные платформы входит в комплекты разработки ОБЯЗАТЕЛЬНО.</p>
+			<p class="trr">
+			* Подключение яндекс метрики и Google Analytics БЕСПЛАТНО.</p>	
+		</div>			
+	</section>
+			<div class="social">
+				<a class="be" href="https://vk.com/plotnikov85">
+				</a>
+				<a class="in" href="https://vk.com/plotnikov85">
+				</a>
+				<a class="dr" href="https://vk.com/plotnikov85">
+				</a>
+			</div>
+			<div class="kontakt">
+				<div class="phone">
+				8-800-00-00-00 
+				</div>
+				<div class="info">
+					Звонок по России бесплатно
+				</div>
+			</div>
+			<div id="openModal1" class="modalDialog1">
+            <div class="blok_menu">
+               <a href="#close1" title="Закрыть" class="close1">X</a>
+               <div class="zed">
+                  <a href="comanda.html" class="zd1">.Команда</a> 
+                  <hr>
+                  <a href="stoimost.html" class="zd2">.Стоимость</a>
+                  <hr>
+                  <a href="shema.html" class="zd3">.Схема работы</a>
+                  <hr>
+                  <a href="design.html" class="zd4">.Дизайн</a>
+                  <hr>
+	              </div>
+	            </div>
+	         </div>
+			<div id="openModal" class="modalDialog">
+			<form class="application" action="php/application.php" method="POST" name="application">
+				<a href="#close" title="Закрыть" class="close">X</a>
+		   <input name="name" class="applicationName" maxlength="20" placeholder="Имя" required/>
+		   <input name="telephone" type="Tel" class="applicationTelephone" maxlength="20" placeholder="Телефон" required/>
+		   <input name="sms" type="sms" class="applicationSms" maxlength="20" placeholder="Сообщение" required/>
+		   <button class="applicationButton" type="submit" form="application">Отправить</button>
+			</form>	
+		</div>	
+</body>
+</html>

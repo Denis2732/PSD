@@ -1,0 +1,165 @@
+@media screen and (max-width: 1240px){
+		.content {
+		margin-left: 58px;
+	}
+		.blokk {
+		margin-left: 35px;
+	}
+		.blokkk {
+		margin-left: 35px;
+	}
+		.blokkkk {
+		margin-left: 35px;
+	}
+
+ 	.social {
+ 	bottom: 24px;
+	margin-left: 58px;
+	}
+ 	.kontakt {
+ 	bottom: 24px;
+ 	margin-right: 58px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+
+	 body {
+ 	background: url(../img/bg_tab_com.png); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+ 	}
+ 	.phone {
+	letter-spacing: 0.45px;
+	}
+	
+	h2 {
+		margin-top: 60px;
+	}
+	.blok {
+	margin-top: 30px;
+	}
+	.blokk {
+	margin-top: 30px;
+	}
+	.blokkk {
+		margin-left: 0px;
+		margin-top: 285px;
+		float: none;
+	}
+	.blokkkk {
+		margin-left: 255px;
+		margin-top: -215px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.menu {
+	display: none;
+	}
+
+	.shape {
+	display: inline-block;
+	}
+	.blok_menu {
+	width: 82vw;
+	}
+
+	.p {
+	width: 100%;
+	padding-right: 58px;
+	}
+	.content {
+	margin-left: 24px;
+	}
+
+	.blokk {
+	margin-left: 10px;
+	}
+		
+	.blokkkk {
+	margin-left: 230px;
+	margin-top: -215px;
+	}
+	 .logo {
+ 	font-size: 22px;
+ 	}
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+  	body {
+   background: url(../img/mob_com.png); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  	}
+
+  	.logotip {
+	 margin-left: 16px
+	}
+
+	 h2 {
+		margin-top: 10px;
+	}
+	  .shape {
+	margin-right: 16px;
+	}
+	.blok_menu {
+	margin-right: 16px;
+	}
+	
+	.content {
+	bottom: 100px;
+	margin-left: 16px;
+	margin-right: 16px;
+	}
+	.social {
+	clear: both;
+	bottom: 16px;
+	margin-left: 16px;
+	}
+ 	.kontakt {
+	bottom: 16px;
+ 	margin-right: 16px;
+ 	}
+ 	.blokk {
+ 		margin-left: 0px;
+ 	margin-right: 50px;
+ 	margin-top: 25px; 
+	}
+	.blokkk {
+		margin-top: 505px;
+	}
+	.blokkkk {
+	margin-bottom: 60px;
+	margin-left: 0px;
+	margin-top: 25px;
+	}
+	.p {
+	width: 100%;
+	padding-right: 16px;
+	}
+
+}
+
+@media screen and (max-width: 380px) {
+
+	 .phone {
+	 	letter-spacing: 0px;
+	font-size: 18px;
+}
+	.info {
+		font-size: 10px;
+}
+.zed hr {
+	width: 208px;
+}
+}

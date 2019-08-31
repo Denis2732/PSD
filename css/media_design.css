@@ -1,0 +1,150 @@
+@media screen and (max-width: 1240px){
+	
+	.content {
+	margin-right: 58px;
+	margin-left: 58px;
+	}
+	.social {
+ 	padding-bottom: 24px;
+	margin-left: 58px;
+	}
+ 	.kontakt {
+ 	padding-bottom: 24px;
+ 	margin-right: 58px;
+    }
+    .papanek {
+	margin-right: 100px;
+}
+}
+
+@media screen and (max-width: 1024px){
+
+	 body {
+ 	background: url(../img/bg_tab_dis.png); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+ 	}
+	
+	h2 {
+		margin-top: 80px;
+	}
+	.papanek {
+	margin-right: 0px;
+	}
+	.textt {
+	margin-left: 0px;
+}
+.phone {
+	letter-spacing: 0.45px;
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.menu {
+	display: none;
+	}
+	.shape {
+	display: inline-block;
+	}
+	.blok_menu {
+	width: 82vw;
+	}
+	.wrapper {
+	margin: 95px auto 0;
+	width: 430px;
+	height: 268px;
+	}
+	.slide1 { 
+	background-image: url(../img/dance_tab.png); 
+	}
+	.slide2 { 
+	background-image: url(../img/moscow_tab.png); 
+	}
+	.slide3 { 
+	background-image: url(../img/instr_tab.png); 
+	}
+	.slide4 { 
+	background-image: url(../img/ikea_tab.png); 
+	}
+	.slide5 { 
+	background-image: url(../img/nike_tab.png); 
+	}
+	.content {
+	margin-right: 24px;
+	margin-left: 24px;
+	}
+	 .logo {
+ 	font-size: 22px;
+ 	}
+}
+
+@media screen and (max-width: 480px) {
+
+	body {
+   	background: url(../img/mob_dis.png); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  	}
+  	.logotip {
+	 margin-left: 16px
+	}
+	h2 {
+		margin-top: 70px;
+	}
+	  .shape {
+	margin-right: 16px;
+	}
+	.blok_menu {
+	margin-right: 16px;
+	}
+	
+	.content {
+	margin-left: 16px;
+	margin-right: 16px;
+	}
+	.social {
+	padding-bottom: 16px;
+	margin-left: 16px;
+	}
+ 	.kontakt {
+	padding-bottom: 16px;
+ 	margin-right: 16px;
+ 	}
+ 	.wrapper {
+ 	margin: 55px auto 0;
+	width: 288px;
+	height: 180px;
+	}
+	.slide1 { 
+	background-image: url(../img/dance_m.png); 
+	}
+	.slide2 { 
+	background-image: url(../img/moscow_m.png); 
+	}
+	.slide3 { 
+	background-image: url(../img/instr_m.png); 
+	}
+	.slide4 { 
+	background-image: url(../img/ikea_m.png); 
+	}
+	.slide5 { 
+	background-image: url(../img/nike_m.png); 
+	}
+ }
+ @media screen and (max-width: 380px) {
+
+
+.zed hr {
+	width: 208px;
+}
+.phone {
+	letter-spacing: 0px;
+
+}
+}

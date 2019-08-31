@@ -1,0 +1,396 @@
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+* {
+box-sizing: border-box;
+}
+body {
+	background: url(../img/gifkae.gif); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	padding: 0px;
+	margin: 0px;
+	color: #FFFFFF;
+	font-family: ft40;
+ }
+
+ #second {
+	box-sizing: border-box;
+ 	min-height: 95vh;
+ 	padding-bottom: 90px;
+ }
+ 
+ .header {
+ 	padding-top: 24px;
+ 	padding-bottom: 10px;
+ }
+
+ a {
+    color: #FFFFFF;
+    text-decoration: none; 
+   }
+
+ .logotip {
+ 	float: left;
+ 	margin-left: 24px;
+ }
+
+ .logo {
+    font-size: 18px;
+ }
+
+ .logo span {
+ 	font-size: 12px;
+ }
+
+ .menu {
+ 	float: right;
+	white-space: nowrap;
+	padding: 0px;
+	margin-right: 24px;
+	font-size: 18px;
+}
+
+.a {
+	margin-right: 40px;
+	display: inline-block;
+}
+
+.s {
+	margin-right: 40px;
+	display: inline-block;
+
+}
+.d {
+	margin-right: 40px;
+	display: inline-block;
+
+}
+
+.f { 
+	margin-right: 40px;
+	display: inline-block;
+
+}
+
+.g {
+	display: inline-block;
+}
+.a:hover {
+	margin-right: 40px;
+	display: inline-block;
+	color: #57068d;
+}
+
+.s:hover {
+	margin-right: 40px;
+	display: inline-block;
+	color: #57068d;
+
+}
+.d:hover {
+	margin-right: 40px;
+	display: inline-block;
+	color: #57068d;
+
+}
+
+.g:hover {
+	display: inline-block;
+	color: #57068d;
+}
+
+.content {
+	margin-left: 88px;
+
+}
+
+h2 {
+	font-size: 36px;
+	margin-top: 80px;
+	padding: 0px;
+	text-shadow: 0px 8px 8px rgba(0,0,0,0.25),
+0 0 8px rgba(0,0,0,0.12);
+}
+
+.hr {
+	width: 219px;
+	border: none;
+	height: 7px;
+	background-color: #6155B6;
+	margin-left: 0px;
+	margin-top: 5px;
+	box-shadow: 0px 8px 8px rgba(0,0,0,0.25),
+0 0 8px rgba(0,0,0,0.12);
+}
+
+.blok1 {
+	margin-top: 50px;
+	width: 185px;
+	height: 145px;
+	float: left;
+}
+.blok2 {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 185px;
+	height: 145px;
+	float: left;
+}
+.blok3 {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 185px;
+	height: 145px;
+	float: left;
+}
+.blok4 {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 185px;
+	height: 145px;
+	float: left;
+}
+.blok5 {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 185px;
+	height: 145px;
+	float: left;
+}
+.blok6 {
+	position: static;
+	margin-left: 87px;
+	margin-top: 300px;
+	width: 310px;
+	height: 185px;
+
+}
+
+.tel:hover {
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+
+.sms:hover {
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+
+
+.treug:hover {
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+
+.list:hover {
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+
+.ust:hover {
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+
+.svyaz {
+	margin-left: 6px;
+	width: 179px;
+}
+
+.obsug {
+	margin-left: 7px;
+	width: 132px;
+}
+
+.produm {
+	margin-left: 7px;
+	width: 175px;
+}
+
+.smeta {
+	margin-left: 7px;
+	width: 191px;
+}
+
+.delaem {
+	margin-left: 8px;
+	width: 145px;
+}
+
+.shest:hover {
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+.tx {
+	margin-left: 8px;
+	width: 279px;
+}
+.social {
+	padding-bottom: 16px;
+	font-family: fontawesome;
+ 	float: left;
+ 	font-size: 30px;
+ 	margin-left: 88px;
+ } 	
+
+ .be:hover {
+ 	color: #57068d;
+ }
+ .in:hover {
+ 	color: #57068d;
+ }
+
+ .dr:hover {
+ 	color: #57068d;
+ }
+
+ .kontakt {
+ 	padding-bottom: 16px;
+ 	float: right;
+ 	margin-right: 88px;
+
+ }
+
+ .phone {
+	font-size: 19px;
+}
+.info {
+		font-size: 11px;
+}
+.shape {
+	display: none;
+	font-size: 24px; 
+	font-family: fontawesome;
+	float: right;
+	margin-right: 24px;
+	margin-top: -3px;
+
+}
+.shape:hover {
+	color: #57068d;
+}
+.blok_menu {
+	border-radius: 3px;
+	box-shadow: 0px 16px 16px rgba(0,0,0,0.25),
+    0 0 16px rgba(0,0,0,0.12);
+	margin-right: 24px;
+	margin-top: 24px;
+	float: right;
+	width: 320px;
+	height: 300px;
+	background: linear-gradient(130.38deg, #841C9E 9.47%, #07246F 135.27%);
+}
+.zed {
+	width: 150px;
+	margin-left: 24px;
+	margin-top: 54px; 
+	font-size: 18px;
+}
+.zed hr {
+	margin-bottom: 24px;
+	color: #ffffff;
+	opacity: 0.2;
+	margin-left: 0px;
+	width: 272px;
+}
+.zd1:hover {
+	color: #57068d;
+}
+.zd2:hover {
+	color: #57068d;
+}
+.zd3:hover {
+	color: #57068d;
+}
+.zd4:hover {
+	color: #57068d;
+}
+
+.modalDialog1 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+.modalDialog1:target {
+    display: block;
+    pointer-events: auto;
+
+}
+.close1 {
+	background: #6c45af;
+	color: #FFFFFF;
+	line-height: 25px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px; 
+	text-align: center;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25),0 0 4px rgba(0,0,0,0.12);
+}
+
+.close1:hover { background: #00d9ff; }
